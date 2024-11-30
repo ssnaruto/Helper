@@ -92,7 +92,7 @@ fi
 
 # Kiểm tra phiên bản yt-dlp
 if command_exists yt-dlp; then
-    echo "yt-dlp đã được cài đặt thành công: $(yt-dlp --version)"
+    echo "yt-dlp đã được cài đặt thành công"
 else
     echo "Lỗi: yt-dlp không được cài đặt thành công."
 fi
